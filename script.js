@@ -51,14 +51,14 @@ const displayResult = () => {
             playerChoice == "scissors" && computerChoice == "paper") {
             countp++;
             number_player.innerHTML = countp;
-            result.innerHTML = "You win! playerChoice beats computerChoice";
+            result.innerHTML = `You win! ${playerChoice} beats ${computerChoice}`;
             result.style.backgroundColor = "green";
     }
     else
     {
         countc++;
         number_com.innerHTML = countc;
-        result.innerHTML = "You lose! computerChoice beets playerChoice";
+        result.innerHTML = `You lose! ${computerChoice} beets ${playerChoice}`;
         result.style.backgroundColor = "red";
     }
 }
