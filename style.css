@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav_bar {
+    width: 100vmax;
+    height: 10vmin;
+    margin: auto;
+    background-color: rgb(13, 13, 93);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_bar h1 {
+    color: white;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vmin;
+    gap: 10vmin;
+}
+
+.play_btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vmin;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vmin;
+    margin-top: 5vmin;
+    font-size: 5vmin;
+}
+
+.player,.computer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    width: 40vmin;
+    height: 10vmin;
+    margin: auto;
+    background-color: rgba(34, 195, 34, 0.564);
+    border-radius: 2vmin;
+    text-align: center;
+    font-size: 5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    border:none;
+    border-radius: 10vmin;
+}
+
+.btn img{
+    width:25vmin;
+    border-radius: 10vmin;
+}
+
+
