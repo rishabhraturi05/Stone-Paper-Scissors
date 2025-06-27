@@ -6,7 +6,7 @@
 }
 
 .nav_bar {
-    width: 100vmax;
+    width: 100vw;
     height: 10vmin;
     margin: auto;
     background-color: rgb(13, 13, 93);
