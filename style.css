@@ -7,7 +7,7 @@
 
 .nav_bar {
     width: 100vw;
-    height: 10vmin;
+    height: 15vmin;
     margin: auto;
     background-color: rgb(13, 13, 93);
     border: none;
@@ -19,6 +19,7 @@
 .nav_bar h1 {
     color: white;
     text-align: center;
+    font-size:8vmin;
 }
 
 .main {
